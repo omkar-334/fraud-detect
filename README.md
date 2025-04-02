@@ -77,6 +77,54 @@ details = get_app_details(app_id)
 details = add_info(details)
 
 # Get the detailed analysis
-analysis = analyze_overall(details)
+analysis = analyze(details)
 print(analysis)
+```
+
+## Sample Output
+```json
+{
+  "image_analysis": {
+    "type": "suspected",
+    "reason": "Some screenshots show a 'Calling Fortune Teller' feature, which deviates from the core description of AI character chat. This suggests potential misleading advertising or unrelated features."
+  },
+  "review_analysis": [
+    {
+      "type": "suspected",
+      "reason": "Reviews mention issues with filters, memory, and functionality, which may indicate a decline in app quality or attempts to manipulate reviews."
+    },
+    {
+      "type": "suspected",
+      "reason": "Multiple reviews highlight the removal of features and the introduction of stricter content filters, which may be an attempt to change the app's functionality."
+    },
+    {
+      "type": "suspected",
+      "reason": "Several reviews express frustration with the app's performance, including login issues, slow loading times, and the repetition of responses, which may indicate bot activity."   
+    },
+    {
+      "type": "suspected",
+      "reason": "Some reviews mention a decline in the quality of the AI and the bots' inability to remember past conversations, which may be a consequence of the recent updates."
+    },
+    {
+      "type": "suspected",
+      "reason": "There are multiple reviews mentioning the same issues, such as the strict filters and the lack of an edit button, which may indicate coordinated feedback or bot activity."      
+    }
+  ],
+  "developer_analysis": {
+    "type": "genuine",
+    "reason": "The website content aligns with the app description and developer information. No immediate red flags were detected."
+  },
+  "description_analysis": {
+    "type": "genuine",
+    "reason": "The app description aligns with the title and summary. The provided screenshots and features match the description of an AI chatbot platform. The developer details and social media links seem legitimate."
+  },
+  "permissions_analysis": {
+    "type": "suspected",
+    "reason": "The app requests extensive permissions (camera, microphone, storage access) that, while potentially justifiable for voice/video chat, warrant further scrutiny to ensure they are used appropriately and not for malicious purposes. The 'draw over other apps' permission is also a concern."
+  },
+  "overall_analysis": {
+    "type": "suspected",
+    "reason": "The app is suspected of fraud due to conflicting image analysis, review manipulation, and questionable permissions. While developer and description analysis show genuine aspects, the inconsistencies raise concern."
+  }
+}
 ```

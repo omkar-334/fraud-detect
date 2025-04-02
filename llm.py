@@ -232,11 +232,7 @@ def analyze_overall(results, app_data):
     return analyze_fraud(prompt)
 
 
-# Example usage:
-if __name__ == "__main__":
-    with open("app_details.json", encoding="utf-8") as file:
-        app_data = json.load(file)
-
+def analyze(app_data):
     results = {
         "image_analysis": analyze_images(app_data),
         "review_analysis": analyze_reviews(app_data),
@@ -249,3 +245,12 @@ if __name__ == "__main__":
     with open("results.json", "w", encoding="utf-8") as file:
         json.dump(results, file, indent=2, ensure_ascii=False)
     print(json.dumps(results, indent=2))
+    return results
+
+
+# Example usage:
+if __name__ == "__main__":
+    with open("sample/app_details.json", encoding="utf-8") as file:
+        app_data = json.load(file)
+
+    analyze(app_data)
