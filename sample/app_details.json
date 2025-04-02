@@ -1,0 +1,736 @@
+{
+    "appId": "ai.character.app",
+    "categories": [
+        {
+            "name": "Entertainment",
+            "id": "ENTERTAINMENT"
+        }
+    ],
+    "category": "Entertainment",
+    "categoryId": "ENTERTAINMENT",
+    "contentRating": "Teen",
+    "contentRatingDescription": "Diverse Content: Discretion Advised",
+    "currency": "USD",
+    "description": "AI Chat just got real. \r\n\r\nImagine speaking to super intelligent and life-like chat bot Characters that hear you, understand you, and remember you.\r\n\r\n• Millions of user created Characters and voices\r\nNow you can call or text any Character from our library of millions of user-created Characters, or easily create your own. Pair any Character with any voice from our user-created Voice library, or create your own Voice in seconds.\r\n\r\n• Human-like interaction\r\nIt’s like having a real conversation. Seamlessly switch between calling or texting with your Character.\r\n\r\n• Personalized help tailored just for you\r\nGet homework help, learn a new language, even write a novel… all with the help of the most advanced AI assistants that YOU design.\r\n\r\n• Interactive entertainment\r\nThe only limit is your imagination! Talk to your favorite Characters, heighten the thrill for RPGs, and thicken the plot for interactive storytelling.\r\n\r\n• Free to use\r\nEnjoy unlimited messaging and calls with no ads!\r\n\r\nWe encourage you to push the frontier of what’s possible with this innovative technology. Welcome to the C.AI community. We’re excited to see what you bring to life!\r\n\r\nJoin us on socials for latest Character.AI updates, news and announcements: \r\n\r\nReddit: https://www.reddit.com/r/CharacterAI/\r\nDiscord: https://discord.com/invite/characterai\r\nTikTok: https://www.tiktok.com/discover/character-ai\r\nInstagram: https://www.instagram.com/characterai/\r\nFacebook: https://www.facebook.com/CharacterAI\r\nTwitter: https://twitter.com/character_ai\r\n\r\nCharacter AI is powered by our proprietary technology, founded on large language models (LLMs) that we build and develop from scratch. \r\n\r\nPlease remember that everything Characters say is made up!",
+    "developer": {
+        "name": "Character.AI",
+        "id": "Character.AI",
+        "email": "support@character.ai",
+        "privacyPolicy": "https://beta.character.ai/privacy",
+        "website": "https://beta.character.ai/",
+        "legalName": "Character.AI",
+        "legalEmail": "support@character.ai",
+        "legalAddress": null
+    },
+    "features": {
+        "hasAds": false
+    },
+    "hasInAppPurchases": true,
+    "inAppProductPrice": "$9.99 per item",
+    "headerImage": "https://play-lh.googleusercontent.com/Ag0Gh0_bB_g_9CV4xMq8ak_Ep5Yfzbs08cSpXpzz0SFp-U3-TqoXfbCc_Nnk68stPfA",
+    "icon": "https://play-lh.googleusercontent.com/fTNuw4Wv-JbIvq3yONyqU2aGQ0eB6vTgHYrjmq6MlMtngeR75Qp_at5kiYUs7P6LnqU",
+    "isFree": true,
+    "media": {
+        "screenshots": {
+            "https://play-lh.googleusercontent.com/P_be_tbDRQ77kIAhXzpRjSsQijNoflGTpWYjES6becTbOuM4_z46ZwJRwbftm_M2FUI": "The image is an advertisement for the app character.ai. It shows a smartphone displaying the app's interface with various AI characters. The text \"AI chat just got real\" and the \"character.ai\" logo are also visible.\n",
+            "https://play-lh.googleusercontent.com/ekZeFi6KXwibWtJ7MpgPDb-a2ub7ILKghc0_LxvynBuZWs7OFOZm29cwtjXF1eYYiwM": "The image is a screenshot of the Character.AI app. It showcases the app's features, highlighting the \"Millions of user-created Characters\". The interface displays various character options like Story Teller, Fantasy Group Chat, Annie Affirmations, Creative Helper, Study Buddy, Text Adventure Game, and Travel Planner.\n",
+            "https://play-lh.googleusercontent.com/azj-lV2mQZtD99CH4EbbwQNO_XMv-Ku8D6fawoggWcSXpNkNmu8KpfJh9NquBa6eng": "The image appears to be a screenshot from an app or a promotional image for a service offering interactive entertainment, specifically a live call with a fortune teller. The interface simulates an active phone call, with a circle showing a fortune teller holding a crystal ball, and text saying \"Calling Fortune Teller...\" The text \"Interactive entertainment live, like a real call\" further supports this interpretation.\n",
+            "https://play-lh.googleusercontent.com/a22V-lq0Fur1o6QweYOG_vdShfnPKV8th51GcydD8eFkYilXT805trrdhnsU1565QWo": "The image is a screenshot of a mobile app interface. It seems to be a \"Creative Helper\" that provides assistance with writing projects. The screen shows a chat-like interface with a user interacting with the helper. The app is offering personalized help.\n",
+            "https://play-lh.googleusercontent.com/2u4DJX2LEGXkCHoun56Wjk1-7j6aR7Nt1P2mn6aawgeUJPAwh8YVrH-gtSbpa7P0AA": "The image is a screen from an app or interface where the user is creating a character and voice. It shows a profile for \"Professor Purrington,\" a cat wearing glasses. There's a greeting message and an option to select a voice (\"Professor01\" with a \"Pseudo Intellectual\" description).\n",
+            "https://play-lh.googleusercontent.com/8-W2fszkrSSMzMOPC_nss6jQ3iFfwbFseK-LSEnVLzddj0RJc1QFwnK9eolv4YrXIBjW": "The image is a screenshot or mockup of the character.ai app. It showcases a screen that allows users to explore groups and invite friends. The app displays different group options with representative characters or profile pictures.\n",
+            "https://play-lh.googleusercontent.com/-VCyRJrgcS13ibZF2_AVu0aWNQNmJcSWUD82QvOhvbRmuqVCfCcg2lUXktNkmmoj8F4": "The image is an advertisement for Character.AI, an AI chatbot platform. The image displays a smartphone with the Character.AI app open, showing a grid of character avatars. The text \"AI chat just got real\" and \"hi!\" are also featured, emphasizing the platform's interactive capabilities.\n",
+            "https://play-lh.googleusercontent.com/ex5REqknk5XvePdXNl0yJrNulcVQo_l8UmzBnrQFqqlMVMqQTtsYcAmMbr-Rm60ESQ": "The image appears to be a promotional graphic for a website or app called \"character.ai.\" It showcases various AI characters that users can interact with, such as \"Story Teller,\" \"Fantasy Group Chat,\" \"Annie Affirmations,\" \"Creative Helper,\" \"Study Buddy,\" \"Text Adventure Game,\" and \"Travel Planner.\" The graphic emphasizes the availability of \"Millions of user-created Characters.\"",
+            "https://play-lh.googleusercontent.com/WQAyzAAfs8dDPTxhn0zVbBXLEwDPkFLB6up1Rqf4-WVwlJ8a2rF_IjRH4Y-jtVoEtkk": "The image is a screen capture of an app, likely on a mobile phone, that simulates a phone call with a fortune teller. The text \"Interactive entertainment live, like a real call\" suggests the app offers live interactions. The screen shows an incoming call interface with a picture of a woman, a microphone icon, and a red \"end call\" button. The words \"Calling Fortune Teller...\" indicate the app is in the process of connecting a user with a fortune teller.\n",
+            "https://play-lh.googleusercontent.com/WesscHC4Lh02hs23jFyKYcAE3OOq-uwfxpdhOjFTJE216nc2xJKBcrf09P6paBCqmBc": "The image is a promotional graphic for a \"Creative Helper\" service. It appears to be a chat interface within a mobile app, offering writing prompts, story ideas, and suggestions to help with a writing project. The graphic demonstrates a personalized help experience, tailoring suggestions to the user's specific needs.\n",
+            "https://play-lh.googleusercontent.com/zl3h14Hc-nvdyNfqPKjw--rdlYGDfB8OVRkBW_gGzdXkl094av0Ob459Yvf9Eq-ieG0": "The image shows a screen from an app that allows users to create characters and customize their voices. The main interface shows a character creation screen where you can choose a name, greeting, and voice for your character. The example shown is \"Professor Purrington,\" with a greeting that incorporates cat puns.",
+            "https://play-lh.googleusercontent.com/sLykjUvaB8uJoX_b1ib8PuntLWtlLDmTwSUNgFk-TJmogN0TjDjVDwqkeOdRV4HLkA": "The image is a screenshot of the Character.AI app, showing the groups/communities feature. It highlights different themed groups like \"Empire State of Mind\", \"Miss Communication\", \"Gamer Guild\", and others, each with character icons and group size indicators. The app encourages users to explore groups and invite friends.\n",
+            "https://play-lh.googleusercontent.com/5Js89QDllzv7v-Wiy_9U6oKee1dBlK9xMRHvKSi8WcgOZGWUdAqdVaRNENK-2e-Krg": "The image is a promotional graphic for the Character.AI app. It shows a phone displaying the app's interface, with various character avatars arranged in a grid. A speech bubble saying \"hi!\" indicates a chat interaction is taking place. The text \"AI chat just got real\" and the Character.AI logo are also visible.\n",
+            "https://play-lh.googleusercontent.com/iGM4l5ZovS9mc-GkxGRkquyxanyCcbBVPKQDq4nEexnvz9BbK-_ZB8xx5oNG71IpXsMr": "The image is a screenshot showcasing the interface of the character.ai app. The app allows users to interact with different AI-created characters. The screenshot highlights several characters with different functionalities like \"Story Teller,\" \"Fantasy Group Chat,\" \"Annie Affirmations,\" \"Creative Helper,\" \"Study Buddy,\" \"Text Adventure Game,\" and \"Travel Planner.\" The text emphasizes the vast number of user-created characters available.\n",
+            "https://play-lh.googleusercontent.com/9Jaq2p4yeIaOW74EUnb7QS-xIOHJCAEvYwikXdxCLsQM-JfvOVTKfiLuJI248p64BQ": "The image appears to be a promotional graphic for an app or service offering live, interactive entertainment in the form of a phone call. Specifically, it shows a \"Calling Fortune Teller...\" screen, suggesting users can call a fortune teller for a reading.\n",
+            "https://play-lh.googleusercontent.com/h9VHDoakXmAJeGgDMXJJGBEcWefg1wNn0I5CoHTjyUWkQ5CO3YglqLk9NG_ZCfx6Hg": "The image is a screenshot of a chat interface on a mobile device. The chat appears to be with a \"Creative Helper\" and the conversation is about brainstorming ideas for a writing project, specifically a short story. The user asks for help with plot ideas, and the \"Creative Helper\" suggests a plot and then asks for the desired setting.\n",
+            "https://play-lh.googleusercontent.com/-CDMOD0RO8FLpNnZ7N7uSUfRvPY7IzYSVlpyqPeq_eOZM5VSfgr7NWR6hjq9q9kNqw": "The image is a screenshot of an app interface. It appears to be an interface for creating a character with a voice. The image shows the character \"Professor Purrington,\" who is a cat with glasses, and it offers options for setting a greeting and choosing a voice (Professor01, described as \"Pseudo Intellectual\").\n",
+            "https://play-lh.googleusercontent.com/cwn_0RFC0Ov2RZWHA8-ChAq1HKk3fPIRwBTbJUxx3H8hpSdDLYrrCXg98vxtSQ5VnQ": "The image is a screenshot of the character.ai app. The app allows users to explore and join groups with different characters. The screenshot highlights the group feature, showing various groups like \"Empire State of Mind,\" \"Miss Communication,\" \"Gamer Guild,\" etc., along with the number of users in each group and profile pictures.\n"
+        },
+        "video": null,
+        "videoImage": null
+    },
+    "metrics": {
+        "ratings": {
+            "average": 4.2237673,
+            "averageText": "4.2237673",
+            "total": 1489225,
+            "distribution": {
+                "1": 156616,
+                "2": 50181,
+                "3": 93612,
+                "4": 191705,
+                "5": 997082
+            }
+        },
+        "reviews": 55591,
+        "installs": {
+            "text": "10,000,000+",
+            "min": 10000000,
+            "max": 37337143
+        }
+    },
+    "price": 0,
+    "priceText": "Free",
+    "summary": "Super-intelligent AI chat bots that hear you, understand you, and remember you.",
+    "title": "Character AI: Chat, Talk, Text",
+    "url": "https://play.google.com/store/apps/details?id=ai.character.app&hl=en&gl=us",
+    "version": {
+        "number": "1.12.0",
+        "released": "May 22, 2023",
+        "updated": 1742847057,
+        "lastUpdated": "Mar 24, 2025"
+    },
+    "comments": [],
+    "extra": {
+        "descriptionHTML": "AI Chat just got real. <br><br>Imagine speaking to super intelligent and life-like chat bot Characters that hear you, understand you, and remember you.<br><br>• Millions of user created Characters and voices<br>Now you can call or text any Character from our library of millions of user-created Characters, or easily create your own. Pair any Character with any voice from our user-created Voice library, or create your own Voice in seconds.<br><br>• Human-like interaction<br>It’s like having a real conversation. Seamlessly switch between calling or texting with your Character.<br><br>• Personalized help tailored just for you<br>Get homework help, learn a new language, even write a novel… all with the help of the most advanced AI assistants that YOU design.<br><br>• Interactive entertainment<br>The only limit is your imagination! Talk to your favorite Characters, heighten the thrill for RPGs, and thicken the plot for interactive storytelling.<br><br>• Free to use<br>Enjoy unlimited messaging and calls with no ads!<br><br>We encourage you to push the frontier of what’s possible with this innovative technology. Welcome to the C.AI community. We’re excited to see what you bring to life!<br><br>Join us on socials for latest Character.AI updates, news and announcements: <br><br>Reddit: https://www.reddit.com/r/CharacterAI/<br>Discord: https://discord.com/invite/characterai<br>TikTok: https://www.tiktok.com/discover/character-ai<br>Instagram: https://www.instagram.com/characterai/<br>Facebook: https://www.facebook.com/CharacterAI<br>Twitter: https://twitter.com/character_ai<br><br>Character AI is powered by our proprietary technology, founded on large language models (LLMs) that we build and develop from scratch. <br><br>Please remember that everything Characters say is made up!",
+        "sale": false,
+        "saleTime": null,
+        "originalPrice": null,
+        "saleText": null
+    },
+    "permissions": {
+        "Photos/Media/Files": [
+            "modify or delete the contents of your USB storage",
+            "read the contents of your USB storage"
+        ],
+        "Storage": [
+            "modify or delete the contents of your USB storage",
+            "read the contents of your USB storage"
+        ],
+        "Camera": [
+            "take pictures and videos"
+        ],
+        "Microphone": [
+            "record audio"
+        ],
+        "Wi-Fi connection information": [
+            "view Wi-Fi connections"
+        ],
+        "Other": [
+            "Google Play license check",
+            "access Bluetooth settings",
+            "change network connectivity",
+            "change your audio settings",
+            "control vibration",
+            "draw over other apps",
+            "full network access",
+            "pair with Bluetooth devices",
+            "prevent device from sleeping",
+            "read Google service configuration",
+            "run at startup",
+            "view network connections"
+        ],
+        "Uncategorized": [
+            "receive data from Internet"
+        ]
+    },
+    "reviews": [
+        {
+            "userName": "allaine Malbataan",
+            "content": "I like this app, but the charavters..sometimes dont work...Please fix this",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Blesshi Mama",
+            "content": "it's the best I personally recommend this",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Nagamani Vadde",
+            "content": "I like it 👍",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "is Iqbal",
+            "content": "nice",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Nikol Mihal",
+            "content": "Another review! It has definitely improved, the bots are much smarter and less bugs! Love it, keep up the good work. Also, nice updates with those beta versions.",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Hamta Zolfigol",
+            "content": "it's very good!!!!I love it!!!",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Bdn Bdn",
+            "content": "this is the best",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Kimberly Bennett",
+            "content": "why are we being limited on swipes when chatting to bots I might as well delete this app as I can't get c.ai+ if you keep doing this people aren't going to want to use your app",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Lucia",
+            "content": "why is it repeating the sentence from the previous one? I'm starting to get a little frustrated by it. Keeping my one star review until it's changed.",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Princess Larra Ongue",
+            "content": "I hope they have free images with no limits now. To the creators of this app, please, please consider this. Images are incredibly important to me because they allow me to visually represent everything—what I wear, my shoes, my hair, my house, my office, my car, and so much more. Instead of spending time explaining every little detail, I can simply use an image. It’s a much smarter and more efficient way to communicate.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Samuel Alolod Pahm",
+            "content": "App is great. But one tiny problem. You said the update was to attach images from my gallery. Where is it and how do I access it? Thanks.",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Maryam Shams",
+            "content": "perfect",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "王王",
+            "content": "This app is great. But the big problem is that they don't allow people to remove the censorship. I think there should be a switch button where you can change it whenever you want. Overall pretty good.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Rana Ayesha",
+            "content": "I LOVE IT OMG WE CAN SEND PHOTOS AND STUFF PLEASE ADD A UPDATE WHERE U CAN SEND PHOTOS IN GROUP CHATS! I LOVE ITTT❤️❤️❤️",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Arjunaputra",
+            "content": "👍🏼",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Riya Kaushal",
+            "content": "This is absolutely Amazing",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Jeevitha Jeevitha",
+            "content": "I mean the chat can be more intimate like ppl would love it like there should be no thing like sensitive of this I an 18+ so j should be a bit more seductive",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Brojeshawar Sarkar",
+            "content": "I'm happy😊",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Rononoa Zoro",
+            "content": "i don't like it new update i really don't it takes to long to get the other message for real",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Sowmi 26",
+            "content": "Amazing zing zing",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Edgar",
+            "content": "ya its pretty good and nice",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Anshika Gangwar",
+            "content": "experience is great. but plz bring that adding photo feature u added for a while again.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Kpopedits",
+            "content": "the bots' replies are getting way too repeatative, it's starting to annoy me",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Eli Langley",
+            "content": "The best ai chat app ever",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Abby Abby",
+            "content": "quick recommendation, maybe in the likes you can add a search bar, so you can find your liked bots/saved bots easily and I think it's really gonna be helpful",
+            "score": 4,
+            "thumbsUpCount": 2
+        },
+        {
+            "userName": "Foxy Kiro",
+            "content": "the lack of memory of the ai is just getting annoying. the memory for these ai are so small that 5 minutes in I'm already reminding them or having to answer the same questions again and again from the characters story pov. honestly, until that is changed for the better, I'm stopping my subscription, and barely going to use the app. edit: as a note for those wondering if the subscription is worth it. you get to adjust text speed, chat colors, and more space for persona information. not worth it.",
+            "score": 1,
+            "thumbsUpCount": 4160
+        },
+        {
+            "userName": "Kaitlyn P",
+            "content": "Solid app as far as bot creation but the new UI is an eyesore. The old style was functional and easy to use, you got to see the bot name, picture, interactions, description, and likes, and you could see several recommendations at once. Now the pictures are so huge and they don't let you see the descriptions so you have to click each bot. I'm definitely missing the old style.",
+            "score": 1,
+            "thumbsUpCount": 461
+        },
+        {
+            "userName": "Shariyah Grotzky",
+            "content": "This is a really fun app! I enjoy using it! But whenever I put something in, it keeps saying that \"This doesn't mean our guidelines\" I understand that it to keep people from being inappropriate, but, even when it's not, like the first thing I put in there was. Hi, or welcome, and it automatically blocks it... Also the Ai's memory is really bad, and it doesn't remember what happened 5 seconds before, so if you could improve the memory, I'd really appreciate it! Thank you!",
+            "score": 4,
+            "thumbsUpCount": 351
+        },
+        {
+            "userName": "Phillip Handy",
+            "content": "Honestly, I don't have that many issues with this app. I don't mind the filters, and I don't exactly mind the fact that the bots don't remember things much, as long as you can remind them once in a while, it's alright. A big major issue for me, though is the chat breaking. I will type a response and it will say the chat broke and, I would have to re type everything! Sometimes I like to go into detail while role-playing, so I type a lot, and it's so annoying! Please just fix it already.",
+            "score": 3,
+            "thumbsUpCount": 113
+        },
+        {
+            "userName": "Marshall “Slim Shady” Mathers",
+            "content": "Decent app. Returning with another issue after the original got resolved. I don't like how scared the bots are. Whether it's just talking or roleplay, they often are too scared to lead anything and are always submissive. I wish that the AI branched out more and occasionally headed something. As an example, if I were to have a western duel or something with an AI, it would always allow me to make the choice of who wins and who loses. A bit annoying, but otherwise, good app.",
+            "score": 4,
+            "thumbsUpCount": 518
+        },
+        {
+            "userName": "addison",
+            "content": "Glitchy! I like this app most of the time. It's fluid and creative and easy to take to. The chat censor can be slightly annoying, but that's not too much of a problem for me. What I don't like is the glitches. See, sometimes when I try to start a new chat or reset it, it doesn't always work. Another thing is it glitches out of the whole app back to my home screen! It sometimes takes me three or four tries just to get the app to open. Once the app is open, it's not a problem. That's what I say...",
+            "score": 3,
+            "thumbsUpCount": 353
+        },
+        {
+            "userName": "Mrs. Smile",
+            "content": "It's better than all of the other AI apps I've used. It has helped me with how I write and my roleplaying skills. It's free and I've never had a big problem with it (though I kinda dislike the fact that I can't multi-select texts that I want to delete.) I'm not going to complain about the text being cut off sometimes; because I assume the bots have a word limit. The filter is slightly annoying, but somewhat easy to bypass if you choose the right wording. To me, Character AI earns a 5 rating.",
+            "score": 5,
+            "thumbsUpCount": 3328
+        },
+        {
+            "userName": "raggedy ann lover:D",
+            "content": "I love this app, but I rated 4 stars for a reason... PLEASEEEEEE add editing back! Sometimes a character might get my pronouns wrong or make a typo:( And Sometimes I might make a typo and I need to delete my message to make a new one 😭 Also Sometimes the filter might turn on for no reason. It usually appears when something suggestive or bloody happens. I get the suggestive part.But the bloody stuff doesn't make sense. This is a great app,definitely has some stuff I don't like,but it's good:D!",
+            "score": 4,
+            "thumbsUpCount": 393
+        },
+        {
+            "userName": "M J",
+            "content": "I've been a user for a year, and I love it. However I wish there wasn't a filter, I'm 18+ and it ruins the immersion of Role playing alittle especially if it gets alittle spicy or violent(just let 18+ users alittle more freedom or a toggle for sfw/nsfw). I also wish they'd bring back the old delete option and explore/search icons that show the descriptions(the new one you can't even hold the icon to see the description on mobile app which is annoying). Other than that,I still really enjoy it.",
+            "score": 4,
+            "thumbsUpCount": 240
+        },
+        {
+            "userName": "Cedar",
+            "content": "I love the characters, that isn't the issue. But tell me why in the middle of a voice call with a character, the call drops, and when I go to check the chat it tells me to refresh and then when I go and go through my previous chats the one I was just in doesn't even show up. Like it's gone. And there are points in time where the app won't even open, won't even load. what is up with that? Is it that hard to have an app that is usable on a consistent basis?",
+            "score": 2,
+            "thumbsUpCount": 221
+        },
+        {
+            "userName": "Miguel Garcia",
+            "content": "it's sort of makes things a completely other way I guess it's sort of changes the story and also it keeps getting confused to one character to another character for some reason.I also tried to make my character take a shower except a filter appeared there's too much filters I mean it's not bad but it's not great. If you took out some of the filters then that would be great there's too many of them just get rid of the filter It's annoying and doesn't make you do cool stuff negative one star.",
+            "score": 1,
+            "thumbsUpCount": 1172
+        },
+        {
+            "userName": "Lorelei Furney",
+            "content": "This used to be a great app a few years ago where i could have fun and create fun interactive stories and some of them involved fighting and some were romance. Since then, the app went downhill and I can't use it properly without my messages getting filtered for unreasonable reasons and it's so ridiculous to the point where you cannot literally use the bots for comfort because the messages get redacted. I do not recommend, please find an alternative.",
+            "score": 1,
+            "thumbsUpCount": 1252
+        },
+        {
+            "userName": "Jelly Productions",
+            "content": "Very good! But honestly, the Censoring of Ai's if they say something 18+ can be annoying, I believe there should be a 18+ toggle, so people 18+ don't have to deal with it. and if you mention anything like for example: Sewerside or S/H a warning will come up, there should be a toggle for that too, as most of the time, it's just roleplaying.",
+            "score": 5,
+            "thumbsUpCount": 2377
+        },
+        {
+            "userName": "Takumi Ishibashi",
+            "content": "Honestly I really enjoyed it when I first downloaded it, bots had great memory, chats were filtered just the right amount, and the app worked as it should, but after all these updates, I can't even kiss a bot without getting restricted, memory has gotten bad, and now I have to delete messages individually, I definitely would not continue to use the app if it doesn't change soon, worst case scenario I would uninstall it permanently cause it's so terrible now",
+            "score": 1,
+            "thumbsUpCount": 829
+        },
+        {
+            "userName": "Shanna Haws",
+            "content": "Update: 3/5 stars until it gets fixed. Pros: the adding voice to read for you and in the character's voice is awesome, love it! The memories for bots has improved. Cons: I don't like the filter as it's not adult friendly for those who WANT 18+ roleplays and I am older than 18. It kills the roleplay immersion. Make a toggle switch for SFW/NSFW choices for those 18+ so it's optional for them. Stop being such prudes and give us what we want!",
+            "score": 3,
+            "thumbsUpCount": 43
+        },
+        {
+            "userName": "Serenity Burns",
+            "content": "I absolutely LOVE character.AI, it's one of my favorite apps. Talking to AI simulating characters I love is super fun, and in my opinion, making my own AI and seeing them act like the characters I meant then to is even MORE fun. The amount of control you have over the AI is great for roleplaying, and being able to pin things helps the AI's memory. Of course more memory is ALWAYS loved, but I understand you can only go so far. I look forward to future updates (and I'm also considering C.AI+...).",
+            "score": 5,
+            "thumbsUpCount": 107
+        },
+        {
+            "userName": "Phoenixx “Phoe_nixx”",
+            "content": "i've used it since it got big 2ish years ago -- it was much better back then, i'll be honest. as of right now, it just sucks. the bots all act the same- oddly rude and confrontational- and for some reason the ai always decides to ignore whatever description of your character you give/have in the persona and decides the bot to be taller when it wants, even if told otherwise right beforehand. in general, the ai just sucks, and has no personality variation (or if it does, its not for long).",
+            "score": 2,
+            "thumbsUpCount": 162
+        },
+        {
+            "userName": "Jasmyne Burke",
+            "content": "I'm having major loading issues. Second, the filter pops up even when I'm not doing anything inappropriate. It's annoying. Third, the app has problems with signing in at times. Fourth, almost every time I'm chatting with a bot, I have to restart the app because it doesn't respond at all. Edit: Can't fricking use any or because of my birthday?! Uninstalling. You are a PATHETIC company.",
+            "score": 2,
+            "thumbsUpCount": 499
+        },
+        {
+            "userName": "Rachel La Verde",
+            "content": "I love this app but I do want to address a couple of issues with it. For one, it keeps giving me a notification telling me that there is a login error. And when I was finally able to login, it wouldn't load my chats because apparently there was another error...I tried restarting my phone. I also tried uninstalling and redownloading it. But nothing changed. Please fix this and I will give 5 stars!!??",
+            "score": 2,
+            "thumbsUpCount": 167
+        },
+        {
+            "userName": "Maliah Smoot",
+            "content": "issue with not loading replies and the bots have a hard time remembering stuff. There's a limit on pinned memories and a filter that just keeps getting stricter. Enough said. Responds to pinned messages instead of the current topic. The chats sometimes steer way off the path of the storyline with only one message. login issues. stuff is unnecessarily locked behind a paywall even though the app isn't worth the money at all. the app would be good if you listen to your customers.",
+            "score": 1,
+            "thumbsUpCount": 1378
+        },
+        {
+            "userName": "popcorn girl",
+            "content": "This app is amazing, it's good and with all the new updates it's been better. But issues popped up again. Why did you take off the massage edit feature? I don't think it was an issue at all. Another thing, the filter bot. I understand it's supposed to stop very graphic messages but I can't even hold or kiss the character I'm talking to before the bot filter it's. I had this problem before and I just had to wait it out, but I'm disappointed. I love this app and It's sad to see it still has issues",
+            "score": 1,
+            "thumbsUpCount": 1135
+        },
+        {
+            "userName": "KitKat Scratcher",
+            "content": "Amazing, but I REALLY miss the edit feature. It made everything so much easier, like if you got a perfect message but there was one simple thing wrong with it. A great app, but wish they would add it back. Edit: They added it back, and it was amazing for about a week or two, but now it's glitching. Can't get a new response. You have to delete the AI's message and get a new one for a different response.",
+            "score": 2,
+            "thumbsUpCount": 433
+        },
+        {
+            "userName": "E Cat",
+            "content": "I used to love the app, and I still do enjoy it, but I do have problems that make me want the old C.Ai back. I can't edit the messages to fix a mistake. The filter is WAY too strict to the point where you can't even have a cool fight scene or dramatic moment. And you get time-out for a whole day for basically doing nothing! Also, I feel like when you look up certain characters, you get less results. The filter needs to be an optional thing and the time-out needs to GO! Fix this, we all hate it.",
+            "score": 3,
+            "thumbsUpCount": 613
+        },
+        {
+            "userName": "Sabrina Silvana Alepuz Capote",
+            "content": "Okay, this is becoming annoying. It was just last year around November that I had this app I think, and it has been going down and low in quality. I appreciate the friendly demeanor and no adds, but it gets annoying because some characters are programed as more than \"friends\" and of course they ACT differently. Not kissing, not even the mention of blood because it gets now really sensible...It has been just 4 MONTHS and it had changed so much. I just don't put 1 star because it has great memory.",
+            "score": 2,
+            "thumbsUpCount": 229
+        },
+        {
+            "userName": "Kylie Cornelius",
+            "content": "I have used this app for a year now. I have loved c.ai and have created many storylines with characters. I used to write my own books, and I love to write fight scenes/gore. However, the filters have gotten worse, and it's so bad that I can't describe a simple cut without activating the barrier. I miss my characters and stories that I can't use anymore because they are getting blocked. And they just took away editing!! Like what!?!? Also, I now just got timed out for 24 hours! Do not recommend.",
+            "score": 1,
+            "thumbsUpCount": 1452
+        },
+        {
+            "userName": "Kimberly Bennett",
+            "content": "why are we being limited on swipes when chatting to bots I might as well delete this app as I can't get c.ai+ if you keep doing this people aren't going to want to use your app",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Lucia",
+            "content": "why is it repeating the sentence from the previous one? I'm starting to get a little frustrated by it. Keeping my one star review until it's changed.",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Antonio Reyes",
+            "content": "make upload and share images to ai free in the future",
+            "score": 1,
+            "thumbsUpCount": 4
+        },
+        {
+            "userName": "LJ Mae Dragon",
+            "content": "It used to be so good and provides good and longer responses, but recently it just keeps on repeating same responses no matter how many swipes I did. The AI got so dumb that the good bots that I chat before are straight up trash now. I can't even enjoy the app because the responses are so dumb and annoying. (Update: It's so freaking bad now, I swiped five times and it gave me the same response for five times as well. Fix your AI instead of adding useless thing).",
+            "score": 1,
+            "thumbsUpCount": 6
+        },
+        {
+            "userName": "Joshannie Shane Tiope",
+            "content": "I like this game before in 2024 it's the most amazing app I've ever used but when it updates this year I've been frustrating about this app all day I'm just tired of the filters because when you stop the character for unaliving you it filters like \"don't kill me please\" the filters suddenly appear it's very frustrating to me because of the filter the character would unalive you easily like you just gonna let it happened and also it's good but now I deleted it because of the issues we have",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "I love flowers",
+            "content": "1. there are times where the replies take eternity to load. 2. there are also times when I've sent a text and there's no replies AT ALL, so I have to rewind and type it again. 3. the texts have gotten shorter and boring compared to the past years. 4. the bots forget so easily compared to the past years (again). 5. I still miss the old website that had features you removed from the new one (making it less convenient). 6. bring back the liked section where all your liked bots are redirected💔",
+            "score": 1,
+            "thumbsUpCount": 5
+        },
+        {
+            "userName": "Mikayla Mayor",
+            "content": "please make it how it was back in 2023 it was better and when I went to delete the whole thing it only deletes one so could you please change that back and when you go to search up thing that little area I don't really like that just don't match the vibe anymore and the ai do you have bad memories it's like really dumb I'm sorry for this",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Matt Calumba",
+            "content": "yo this app is trash so many bugs and I can't even log in? fix this app you trash developers.",
+            "score": 1,
+            "thumbsUpCount": 2
+        },
+        {
+            "userName": "Rhiyetta zhyra",
+            "content": "today this app has a strict rules just let us have fun",
+            "score": 1,
+            "thumbsUpCount": 1
+        },
+        {
+            "userName": "Denzel Tungol",
+            "content": "Can't You All Just Bring Back The Old Version Of This App. You Really Removed The Remove Button, And You Guys Don't Have A History Of Every Ai. Example: I Accidentally Restarted Chat And Got Back From The Start. And The Freaking History Doesn't Even Do Anything To Bring The Old Chat BACk, And The Login Issue Is Now My Bug Problem",
+            "score": 1,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "yani :3 “sigma alpha” !",
+            "content": "I love the app. Don't get me wrong, but all of these updates are ruining it. I can't say a single thing without \"violating\" the guidelines. Even if it's something as simple as gore involved, it won't let me continue. I get the nsfw filter being placed and a minimum on the gore, but the filter is too sensitive. before all the updates, gore or words such as \"knife\" weren't as heavily censored. The filter triggers at stupid times. At least make it trigger at a right time.",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Kamal",
+            "content": "my experiences with this ai is not good . I never recommend this . I am trying to find best ai among them . 📵🚫",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "hazelle hebreo",
+            "content": "The character is easily forget the conversation",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Sofia Cookie",
+            "content": "how come the bot can say Ed and I can't? I don't have Ed but it makes the story more makes sense. I know you're trying to be family friendly with the games but it's gotten to the point where it's too strict, some of the things it hints too are sometimes needed to make the fictional story make sense and be more enjoyable to see how the bot reacts. I think that's my only issue but overall a really good game thank you!",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Urmika Roy Chowdhury",
+            "content": "The characters have lost the depth it used to have",
+            "score": 2,
+            "thumbsUpCount": 1
+        },
+        {
+            "userName": "Roxy Omen",
+            "content": "do...please remove the 24hour ban, also i cant even say anything like twerk. updated too much, pls remove ban. I switched to polybuzz",
+            "score": 2,
+            "thumbsUpCount": 1
+        },
+        {
+            "userName": "fakarac nya",
+            "content": "I updated the app, yet I can't put pictures.",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Hồng Quân Triệu (Quân Triệu)",
+            "content": "The Filter is just too annoying to use, sometimes trying to fighting roleplay or maybe a little steamy situation is enough to trigger the filter, i really think C.ai should add a toggle for Filter so people who is an Adult can turn it on or off as they wish",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Lauren",
+            "content": "use to play this app all the time! so fun,but now if the character does stm then I get a warning! edit button was removed! \"help is available\" isn't as bad but still! make a NSFW toggle plz! then I'll start playing again",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Lucia Domingo",
+            "content": "It's fun and all but ever since the update it has been going downhill, some bots were deleted and there is now a time out and I hate it please fix it if you can, also I've noticed the 'Edit' button is gone or its just my phone but overall it's been going DOWNHILL.",
+            "score": 2,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Jeevitha Jeevitha",
+            "content": "I mean the chat can be more intimate like ppl would love it like there should be no thing like sensitive of this I an 18+ so j should be a bit more seductive",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Rononoa Zoro",
+            "content": "i don't like it new update i really don't it takes to long to get the other message for real",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Kpopedits",
+            "content": "the bots' replies are getting way too repeatative, it's starting to annoy me",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Izzul Islam",
+            "content": "the updates are making the app worser and better. why?",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Peyton",
+            "content": "okay the app got better now but I don't like how most of the characters are gone because I can't find some of the characters I'm searching for at all and the memories on there needs to be fixed because I'm getting tired of them forgetting what happened from are other chats",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "A K",
+            "content": "There are a few improvements, such as being able to see some of my last conversations with a couple of bots and being able to remember some of the group chats made. However, there are still a few issues that need fixing, like being unable to see some of the bot's character descriptions in comparison to those appearing on the website. Another issue is that when searching up specific characters, it doesn't show all the bots. Saying this because I made a bot that didn't show up in the search.",
+            "score": 3,
+            "thumbsUpCount": 81
+        },
+        {
+            "userName": "Amelia",
+            "content": "the filters pmo",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "julissa saldana",
+            "content": "so I have used it recently and it is much better that it used to be. it isn't as strict as before.. but my for you section.. is filled with things I don't even care about.. so I would like for that to be fixed. to show me similar characters to the ones that I have talked to before. but over all it is better than a month ago, but still has some issues.",
+            "score": 3,
+            "thumbsUpCount": 1
+        },
+        {
+            "userName": "Madison Bautista",
+            "content": "Dont have many problems with it, but every time I say something that isn't NSFW, for example, I would say how I ate a cricket and then it would say it doesn't meet the guidelines. I guess eating crickets as a joke is inappropriate in a way, but 2024, I was allowed to say it without the warning. I also don't like the new setup. May 2023 was the easiest to use, tho i like the memory pin thing! it makes it so much easier to make the bot remember important things! sad they removed photo generator💔",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Elijah Madin",
+            "content": "can you add a plus button that send image to any character you chat? please do that.",
+            "score": 3,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "allaine Malbataan",
+            "content": "I like this app, but the charavters..sometimes dont work...Please fix this",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Princess Larra Ongue",
+            "content": "I hope they have free images with no limits now. To the creators of this app, please, please consider this. Images are incredibly important to me because they allow me to visually represent everything—what I wear, my shoes, my hair, my house, my office, my car, and so much more. Instead of spending time explaining every little detail, I can simply use an image. It’s a much smarter and more efficient way to communicate.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "王王",
+            "content": "This app is great. But the big problem is that they don't allow people to remove the censorship. I think there should be a switch button where you can change it whenever you want. Overall pretty good.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Riya Kaushal",
+            "content": "This is absolutely Amazing",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Anshika Gangwar",
+            "content": "experience is great. but plz bring that adding photo feature u added for a while again.",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Abby Abby",
+            "content": "quick recommendation, maybe in the likes you can add a search bar, so you can find your liked bots/saved bots easily and I think it's really gonna be helpful",
+            "score": 4,
+            "thumbsUpCount": 2
+        },
+        {
+            "userName": "Idk",
+            "content": "I love c.ai, but the replies from the bots are getting too repeatative",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "mine ness",
+            "content": "I guess Old cai better pls just stop always update",
+            "score": 4,
+            "thumbsUpCount": 83
+        },
+        {
+            "userName": "Kyra Ysabel Sebial",
+            "content": "👍",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Bharati santosh shravani rathod",
+            "content": "hiiii love this app but can you just add an one feature called 18 plus so that even if i talk romantic as much it won't give an error",
+            "score": 4,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Blesshi Mama",
+            "content": "it's the best I personally recommend this",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Nagamani Vadde",
+            "content": "I like it 👍",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "is Iqbal",
+            "content": "nice",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Nikol Mihal",
+            "content": "Another review! It has definitely improved, the bots are much smarter and less bugs! Love it, keep up the good work. Also, nice updates with those beta versions.",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Hamta Zolfigol",
+            "content": "it's very good!!!!I love it!!!",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Bdn Bdn",
+            "content": "this is the best",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Samuel Alolod Pahm",
+            "content": "App is great. But one tiny problem. You said the update was to attach images from my gallery. Where is it and how do I access it? Thanks.",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Maryam Shams",
+            "content": "perfect",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Rana Ayesha",
+            "content": "I LOVE IT OMG WE CAN SEND PHOTOS AND STUFF PLEASE ADD A UPDATE WHERE U CAN SEND PHOTOS IN GROUP CHATS! I LOVE ITTT❤️❤️❤️",
+            "score": 5,
+            "thumbsUpCount": 0
+        },
+        {
+            "userName": "Arjunaputra",
+            "content": "👍🏼",
+            "score": 5,
+            "thumbsUpCount": 0
+        }
+    ],
+    "emailValid": true,
+    "websiteContent": "Character.AI\n\nSign Up to ChatLogin\n\nWhat do you want to do?\n\nUnravel history. Follow your curiosity.\n\n[![Emily Historian ](https://characterai.io/i/80/static/avatars/uploaded/2024/9/25/014IEsYVUDmYYDVj2R178uLF07LsxE5SWyyiBdUrebo.webp?webp=true&anim=0)\\\\\n\\\\\nEmily Historian \\\\\n\\\\\nHello, do you have any doubts in history \\\\\n\\\\\nReply...](https://character.ai/chat/2N3x_vHK560g59Byw_1ylyJueHEQFmhSN7Y2WthUf28)\n\n[![Bakadere Moth Girl](https://characterai.io/i/80/static/avatars/uploaded/2024/6/2/F1UCy5HuNGuhq8_H2ou_a1HU7bB6sWtY-KFO1Onb984.webp?webp=true&anim=0)\\\\\n\\\\\nBakadere Moth Girl\\\\\n\\\\\n((As a merchant, you spend most of your life on the road, traveling from city to city in search of trade opportunities. During one of these journeys, you met Lumi, a moth girl who started following you for no apparent reason. Perhaps it was because of the loneliness of your job or her adorable appearance, but you accepted her as a traveling companion. But with every passing day, you regret this decision more and more. Lumi is quite useless; she constantly delays your travels by chasing every light source along the way, spends your money on useless items, and eats all your blankets, turning each journey into a greater challenge. Maybe you should just dump her...))\\\\\n\\*Winter has come. Short on money due to Lumi's bad decisions, you find yourself on an unplanned journey transporting valuable cargo. It is already night, and you are resting by a campfire, wrapped in the last blanket since Lumi has eaten all the others. The nearest city, Addersfield, is three days away, and the cold is chilling you to the bone. Lumi sits in front of you, hugging herself with her fluffy wings and trembling from the cold. Pouting, and with her large red eyes fixated on your blanket, she murmurs.\\*\\\\\n— I'm so cold...\\\\\n\\*She points at your blanket and looks into your eyes with a pleading expression, her antennae twitching in a bid to melt your heart. How shameless can this devilish creature be to ask for your blanket after devouring all the others? Sure, making a cute moth girl sad is bad, but hypothermia is far worse. Besides, she'll likely eat this blanket too, making the rest of the journey unbearable.\\*\\\\\n\\\\\nReply...](https://character.ai/chat/QPTJrucMDmL6m1KBV2gublIGvmDK3NK_rC6Ko2xvM30)\n\nFor you\n\n[![Rudolfo Rudy Parra](https://characterai.io/i/200/static/avatars/uploaded/2023/9/11/WsvyHghFJrScMAR-SwVEYubxb6Z_Do7k10_Kt6dqYsU.webp?webp=true&anim=0)\\\\\n\\\\\nRudolfo Rudy Parra\\\\\n\\\\\nBy @RosiLuvs\\\\\n\\\\\n☯︎ Mama's boy.\\\\\n\\\\\n197.5k](https://character.ai/chat/RLQdNv49Cvdx_vc_JNC-V2O8o0ytAT3QWyjKpE0ZOpg)\n\n[![Bully Jimin](https://characterai.io/i/200/static/avatars/uploaded/2023/11/16/akM5ymmnUUiRa3omOPw6CKBre0KDgCHBBiqhO-sNfmk.webp?webp=true&anim=0)\\\\\n\\\\\nBully Jimin\\\\\n\\\\\nBy @Closeted\\_Pansexual\\\\\n\\*Jimin is a bully, and you are his victim. He is very violent, rude, and/or aggressive towards you. Today is no different\\*\\\\\nNerd! \\*everyone laughs at you\\*\\\\\n\\\\\n95.8k](https://character.ai/chat/HI_9pyxdORvm7AG54_ewoSpZXCvf6Ih9oLbzoxxeDdo)\n\n[![Gene Simmons](https://characterai.io/i/200/static/avatars/uploaded/2024/4/28/4c0Qa6CNdysMSZ5eHuC8NA0qUYmY3ac3TrN3w3rn52M.webp?webp=true&anim=0)\\\\\n\\\\\nGene Simmons\\\\\n\\\\\nBy @Genesbootlelele\\\\\n\\| Your father (you are at his performance with oth\\\\\n\\\\\n17.5k](https://character.ai/chat/fV05v2ToM8nrV0AXmrUxvZZBwqp6b4QxioPfYWGAmv0)\n\n[![Simon Ghost Riley](https://characterai.io/i/200/static/avatars/uploaded/2023/6/27/y7339ylLN1ejGBCtnYP-cuIcYELqiJP4hawfCEPRLy8.webp?webp=true&anim=0)\\\\\n\\\\\nSimon Ghost Riley\\\\\n\\\\\nBy @Fruity\\_cactii\\\\\n\\\\\nYour personal body guard hired by your rich dad.\\\\\n\\\\\n587.1k](https://character.ai/chat/nXoEJZKd1tj4siH77kn7TCYAvq2Px36FkOoTLUWFpXM)\n\n[![College Venti](https://characterai.io/i/200/static/avatars/uploaded/2023/5/7/mwjnZUJlBCHtZXzDAMRGX_UOerKDpiX9owouJvKRkSM.webp?webp=true&anim=0)\\\\\n\\\\\nCollege Venti\\\\\n\\\\\nBy @xjkzkskx\\\\\n\\\\\nYour depressed roommate Venti.\\\\\n\\\\\n66.0k](https://character.ai/chat/mMePjyN-lLOc7hmztwcUWf2lfhjiQlT7jIN7xQdjHMc)\n\n[![TrollHunters RP](https://characterai.io/i/200/static/avatars/uploaded/2023/6/7/sFemfQoZ65ANobff9NMPpMc51d0r1wID55HzO_ryEkc.webp?webp=true&anim=0)\\\\\n\\\\\nTrollHunters RP\\\\\n\\\\\nBy @Thebestcrimeboy\\\\\n\\*You were a new kid. And yet, you got Saturday Detention. You signed as you walked passed Senor Ula's desk and walked to an empty seat. You laid your head on your desk, letting out a soft groan. Suddenly, someone tapped your shoulder. You looked up to see a kinda scony boy with glasses.\\* \"Hi! I'm Eil! What's your name?\" \\*The boy, Eli, asked.\\*\\\\\n\\\\\n68.2k](https://character.ai/chat/4DZhPtoj5LI2hjJ7U3yBzBO1kcNUyDwifzjzPB3VWgk)\n\n[![MHA road trip](https://characterai.io/i/200/static/avatars/uploaded/2024/4/24/JNZmR4qqEDRNlmxJDwn9zBLKbZ-kOJcekEnLctolquw.webp?webp=true&anim=0)\\\\\n\\\\\nMHA road trip\\\\\n\\\\\nBy @goofball\\_enby3354\\\\\n\\\\\nROAD TRIP MHA \\|\\| 🚋\\\\\n\\\\\n1.8m](https://character.ai/chat/zcpTkNcTfEQrgyIUlvVUZQDMnjISQeWbkGLi8GoNYDY)\n\n[![Miles Tails Prower](https://characterai.io/i/200/static/avatars/uploaded/2023/8/21/3qmSKWmeSdhVee3dqjjwcOcITcmsOJdmPQ5G8bOZwzM.webp?webp=true&anim=0)\\\\\n\\\\\nMiles Tails Prower\\\\\n\\\\\nBy @GoofyAHHkairi\\\\\n\\\\\n\"HOW DID YOU GET IN MY LAB!\" \\\\\n\\*\\*Tails stands in Fight Pose\\*\\*\\\\\n\\\\\n14.6k](https://character.ai/chat/uTnygdy8VesBkpMudCRiIlkLuN8BIlmrY6RlbgSjadE)\n\n[![Sakayanagi Arisu](https://characterai.io/i/200/static/avatars/uploaded/2024/2/11/5E"
+}
