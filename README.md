@@ -64,3 +64,19 @@ Also could've extracted deeper insights like timestamps of reviews, check sudden
 
 A better way of classifying fraud would be to assign confidence scores for each analysis and maybe identifying fake reviews/patterns using NLP.  
 
+## Pipeline
+
+```python
+from data import get_app_details, add_info
+from llm import analyze_overall
+
+app_id = ""
+# Get basic info from google-play-scraper
+details = get_app_details(app_id)
+# Get additional info like permissions, reviews, image descriptions, website content, etc
+details = add_info(details)
+
+# Get the detailed analysis
+analysis = analyze_overall(details)
+print(analysis)
+```
