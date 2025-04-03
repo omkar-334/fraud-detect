@@ -13,10 +13,19 @@ load_dotenv()
 
 
 def scrape(url, p=True):
-    if p:
-        content = asyncio.run(playwright_scrape_async(url))
-        return extract_text(content)
-    return firecrawl_scrape(url)
+    try:
+        if p:
+            content = asyncio.run(playwright_scrape_async(url))
+            content = extract_text(content)
+    except:
+        content = ""
+
+    try:
+        content = firecrawl_scrape(url)
+    except:
+        content = ""
+
+    return content
 
 
 def extract_text(content):
