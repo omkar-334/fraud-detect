@@ -50,6 +50,7 @@ def get_app_ids(links):
 
 def scrape_category_apps(category: str, country: str):
     # https://serpapi.com/google-countries
+
     all_links = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -81,6 +82,9 @@ def scrape_category_apps(category: str, country: str):
 
 
 def get_category_apps(category: str, country: str):
+    # Added three sources - playwright scraping, serpapi charts, and search
+    # since google play store only shows 40-50 apps for each chart (topselling - free/paid, top grossing)
+    # could add serpapi search for reaching 500 apps
     scrape_results = scrape_category_apps(category, country)
     serp_results = serpapi_category_apps(category, country)
     search_results = search_apps(category, country)
@@ -112,13 +116,3 @@ def create_category_dataset(category: str, country: str, info=True):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(dataset, f, indent=4)
     return dataset
-
-
-if __name__ == "__main__":
-    from dotenv import load_dotenv
-
-    load_dotenv()
-    category = "FINANCE"
-    country = "IN"
-    dataset = create_category_dataset(category, country)
-    print(dataset)
