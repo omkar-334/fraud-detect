@@ -58,10 +58,11 @@ def extract_image(url):
     return response.text
 
 
-def describe_screenshots(details):
-    urls = details["media"]["screenshots"]
-    ssdict = dict.fromkeys(urls)
-    for url in list(urls)[:5]:
+def describe_screenshots(details, num=5):
+    urls = list(details["media"]["screenshots"])
+    ssdict = {}
+    # to respect rate limits, only process 5 images for each app
+    for url in urls[:num]:
         time.sleep(1)
         try:
             text = extract_image(url)
@@ -69,15 +70,16 @@ def describe_screenshots(details):
             ssdict[url] = text
         except Exception as e:
             print(f"Error extracting image: {e}")
-            ssdict[url] = ""
+
     details["media"]["screenshots"] = ssdict
+    details["media"]["other_screenshots"] = urls[num:]
     return details
 
 
 def analyze_fraud(prompt):
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash-lite",
+            model="gemini-2.0-flash",
             contents=[
                 {
                     "role": "user",

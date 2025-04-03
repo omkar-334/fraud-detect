@@ -3,11 +3,11 @@ import json
 from google_play_scraper import Sort, app, permissions, reviews, search
 
 from llm import describe_screenshots
-from utils import firecrawl_scrape, validate_email
+from utils import scrape, validate_email
 
 
-def search_apps(query):
-    results = search(query, n_hits=10)
+def search_apps(query, country="us"):
+    results = search(query, n_hits=10, country=country)
     package_names = [app["appId"] for app in results]
     return package_names
 
@@ -72,7 +72,7 @@ def get_app_details(app_id):
             "id": details.pop("developerId"),
             "email": (email := details.pop("developerEmail", "N/A")),
             "privacyPolicy": details.pop("privacyPolicy", "N/A"),
-            "website": (website := details.pop("developerWebsite", "N/A")),
+            "website": details.pop("developerWebsite", "N/A"),
             "legalName": name,
             "legalEmail": email,
             "legalAddress": details.pop("developerAddress", "N/A"),
@@ -139,15 +139,16 @@ def add_info(details):
     details = describe_screenshots(details)
     try:
         perms = permissions(details["appId"])
-    except Exception as e:
+    except Exception:
         perms = {}
     new = {
         "permissions": perms,
         "reviews": get_reviews(details["appId"]),
-        "emailValid": validate_email(details["developer"]["email"]),
     }
+    if valid_email := validate_email(details["developer"]["email"]):
+        new["emailValid"] = valid_email
     if details["developer"].get("website", "N/A") != "N/A":
-        new["websiteContent"] = firecrawl_scrape(details["developer"]["website"])
+        new["websiteContent"] = scrape(details["developer"]["website"])
     return details | new
 
 
