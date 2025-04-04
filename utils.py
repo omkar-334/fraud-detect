@@ -4,12 +4,9 @@ import os
 import requests
 import tiktoken
 from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 from firecrawl import FirecrawlApp
 from playwright.async_api import async_playwright
 from playwright.sync_api import sync_playwright
-
-load_dotenv()
 
 
 def scrape(url, p=True):

@@ -5,13 +5,11 @@ import time
 
 import openai
 import requests
-from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
 from utils import truncate_text
 
-load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
@@ -23,11 +21,11 @@ class App(enum.Enum):
 
 def load_json(response):
     try:
-        json_response = json.loads(response)
-        return json_response
+        response = json.loads(response)
     except json.JSONDecodeError:
         print("Error: GPT response is not valid JSON. Using fallback.")
-        return None
+        response = None
+    return response
 
 
 def get_base(details):
@@ -126,14 +124,13 @@ def analyze_developer(app_data):
     prompt = f"""
     Analyze the following app developer information for potential fraud and provide your reasoning.
     Guidelines -
-    1. I have checked if the email is valid and if the website is genuine.
-    2. You are given the developer's email validity and the website content.
-    3. Check if the developer's website contains any suspicious or fraudulent elements.
+    1. You are given the developer's website content and the app description.
+    2. Check if the developer's website contains any suspicious or fraudulent elements.
 
     {get_base(app_data)}
     Developer Information:
     {json.dumps(dev_details, indent=2)}
-    Email Validity: {app_data["emailValid"]}
+    
     Website Content: {app_data.get("websiteContent", "N/A")}
     """
     prompt = truncate_text(prompt)
@@ -181,7 +178,7 @@ def analyze_basic(app_data):
     app_data.pop("extra")
     app_data.pop("reviews")
     # app_data.pop("permissions")
-    app_data.pop("emailValid")
+    app_data.pop("emailValid", None)
     app_data.pop("websiteContent")
     prompt = f"""
     Analyze the following app description and basic details for potential fraud and provide your reasoning.
@@ -218,14 +215,17 @@ def analyze_permissions(app_data):
 
 
 def analyze_overall(results, app_data):
+    # Your priorities are - Developer Analysis > Image Analysis > Review Analysis > Description Analysis > Permissions Analysis.
     prompt = f"""
-    Analyze the following fraud detection resultd for the app and provide your reasoning accordingly.
-    1. Consider the results of all the analyses performed on the app.
-    2. Provide a final assessment of the app's potential fraud status.
-    3. Provide a summary of the key findings from each analysis.
-    Your priorities are - Developer Analysis > Image Analysis > Review Analysis > Description Analysis > Permissions Analysis.
-    4. Provide a final assessment of the app's potential fraud status.
-    5. If it is suspected, rethink and try to reason it out, and maybe resolve it to either genuine or fraud.
+    Analyze the following fraud detection results for the app and provide your reasoning accordingly.
+    
+    Instructions:
+    1. Review all five analysis results provided for the app.
+    2. Give equal weight to each analysis—do not prioritize one over the others.
+    3. Based on the collective findings, summarize the key insights from each analysis.
+    4. Provide a thoughtful final assessment of the app's potential fraud status.
+    5. If the app is suspected of fraud, critically re-evaluate the evidence and try to resolve the suspicion—either confirm it as fraudulent or clear it as genuine.
+    6. Consider the app's details (such as metadata, description, and behavior) in your reasoning.
     {get_base(app_data)}
     Results:
     {json.dumps(results, indent=2)}
@@ -234,7 +234,7 @@ def analyze_overall(results, app_data):
     return analyze_fraud(prompt)
 
 
-def analyze(app_data):
+def analyze(app_data, filename=None, print=False):
     results = {
         "image_analysis": analyze_images(app_data),
         "review_analysis": analyze_reviews(app_data),
@@ -243,10 +243,11 @@ def analyze(app_data):
         "permissions_analysis": analyze_permissions(app_data),
     }
     results["overall_analysis"] = analyze_overall(results, app_data)
-
-    with open("results.json", "w", encoding="utf-8") as file:
-        json.dump(results, file, indent=2, ensure_ascii=False)
-    print(json.dumps(results, indent=2))
+    if filename:
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(results, file, indent=2, ensure_ascii=False)
+    if print:
+        print(json.dumps(results, indent=2))
     return results
 
 

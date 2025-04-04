@@ -68,7 +68,7 @@ A better way of classifying fraud would be to assign confidence scores for each 
 
 ```python
 from data import get_app_details, add_info
-from llm import analyze_overall
+from llm import analyze
 
 app_id = ""
 # Get basic info from google-play-scraper
