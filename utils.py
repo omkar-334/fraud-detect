@@ -13,15 +13,15 @@ def scrape(url, p=True):
     try:
         if p:
             content = asyncio.run(playwright_scrape_async(url))
-            content = extract_text(content)
+            return extract_text(content)
     except:
         content = ""
 
     try:
-        content = firecrawl_scrape(url)
+        if not content:
+            content = firecrawl_scrape(url)
     except:
         content = ""
-
     return content
 
 

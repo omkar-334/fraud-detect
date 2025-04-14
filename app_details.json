@@ -1,0 +1,81 @@
+{
+    "appId": "com.cedge.apgbpositivepay",
+    "categories": [
+        {
+            "name": "Finance",
+            "id": "FINANCE"
+        }
+    ],
+    "category": "Finance",
+    "categoryId": "FINANCE",
+    "contentRating": "Everyone",
+    "contentRatingDescription": null,
+    "currency": "USD",
+    "description": "Here customer able to upload cheque via APGB  positive pay application.\r\nAlso able to review cheque details , then upload it.\r\nCheque history shows all cheques which are uploaded by customer in application.",
+    "developer": {
+        "name": "CedgeTechno",
+        "id": "CedgeTechno",
+        "email": "cedgetechno@gmail.com",
+        "privacyPolicy": "https://www.apgb.in/apgbpp.php",
+        "website": "https://www.apgb.in/",
+        "legalName": "CedgeTechno",
+        "legalEmail": "cedgetechno@gmail.com",
+        "legalAddress": null
+    },
+    "features": {
+        "hasAds": false
+    },
+    "hasInAppPurchases": false,
+    "inAppProductPrice": null,
+    "headerImage": "https://play-lh.googleusercontent.com/MXPCyivFniyERds1vT1mlz2ommbqTMnzG7Y3QrYujnX3USU36WCP2Si9rGAtW77BlB3n",
+    "icon": "https://play-lh.googleusercontent.com/xdwfWOSjP88Ez3uNERzhhTqwfUpmoeO2cPaJ2aqZeauYnKlyQlRy3aL5TJ7vSfii2Q",
+    "isFree": true,
+    "media": {
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/q4IwU1BGjqRCHR4IekQj0SLZA7m4sS7NA0MfISYiPM8MHNaoFaYMYRduNeU58LldeFk",
+            "https://play-lh.googleusercontent.com/4ujR2v4G0iaOk_sM4SED9ZgWtKg_EhrZn_NBAHiJ83YkpXJt2LgbqaY57MCqlFf2gJZY",
+            "https://play-lh.googleusercontent.com/HQ6S20OQSifGnzuCbpJau1i7woI3R9oI1S3d5XrbMz4r9Jvl2Wl5e_xpul-ojlP_N1M"
+        ],
+        "video": null,
+        "videoImage": null
+    },
+    "metrics": {
+        "ratings": {
+            "average": null,
+            "averageText": "None",
+            "total": null,
+            "distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+            }
+        },
+        "reviews": null,
+        "installs": {
+            "text": "100+",
+            "min": 100,
+            "max": 249
+        }
+    },
+    "price": 0,
+    "priceText": "Free",
+    "summary": "Positive Pay for APGB Positive Pay Customers",
+    "title": "APGB Positive Pay",
+    "url": "https://play.google.com/store/apps/details?id=com.cedge.apgbpositivepay&hl=en&gl=us",
+    "version": {
+        "number": "1.0",
+        "released": null,
+        "updated": 1741173260,
+        "lastUpdated": "Mar 5, 2025"
+    },
+    "comments": [],
+    "extra": {
+        "descriptionHTML": "Here customer able to upload cheque via APGB  positive pay application.<br>Also able to review cheque details , then upload it.<br>Cheque history shows all cheques which are uploaded by customer in application.",
+        "sale": false,
+        "saleTime": null,
+        "originalPrice": null,
+        "saleText": null
+    }
+}
